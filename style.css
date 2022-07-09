@@ -1,0 +1,119 @@
+html,
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: Bisque;
+  text-align:center;
+  background: linear-gradient(to right, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), )}
+
+.item1{background:LightYellow;}
+.item2{background:LightSkyBlue;}
+.item3{background:LightPink;}
+
+
+  .container1 {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightYellow;
+    display: grid;
+    text-allign: centre;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+  }
+
+ .container2 {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGreen;
+    display: grid;
+    text-align:center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+  }
+
+
+ .container3 {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightBlue;
+    display: grid;
+    grid-template-columns:;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: Bisque;
+  text-align:center
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+.c-site-header{
+  
+  font-size: 50px;
+  color: OrangeRed
+}
+
+
+.quotation{
+  font-size: 15px;
+  color: MediumVioletRed;
+  font-family: cursive;
+    
+  
+}
+
+.bioHeader{
+  font-size: 35px;
+  color: ForestGreen
+  
+}
+
+.bio{
+  font-size: 15px;
+  color: SeaGreen;
+  font-family: sans-serif;
+}
+
+.bioNext{
+  font-size: 22px;
+  color: LimeGreen;
+  font-family: serif;
+   
+}
+
+.explanationHeader{
+  font-size: 35px;
+  color: MidnightBlue;
+  font-family: Fantasy;
+  
+}
+.explanation{
+   font-size: 15px;
+  color: DarkOrange;
+  font-family: cursive;
+}
+
+
